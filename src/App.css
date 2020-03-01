@@ -42,3 +42,14 @@ body{
   font-size: 1.2rem;
   color: var(--mainYellow)
 }
+
+.footer {
+  background: var(--mainBlue);
+  color:var(--mainWhite);
+  font-size: 1.3rem;
+  bottom: 0 !important;
+  float: inline-end;
+
+}
+
+
