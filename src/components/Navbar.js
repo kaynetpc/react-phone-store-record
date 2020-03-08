@@ -7,7 +7,7 @@ import { ButtonContainer } from "./Button";
 
 export default class Navbar extends Component {
     render() {
-        return (
+        return ( 
             <NavWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5">
                 {/*
                     https://www.iconfinder.com/icons/1243689/call_phone_icon
@@ -37,7 +37,7 @@ export default class Navbar extends Component {
 }
 
 const NavWrapper = styled.nav`
-/* position: fixed;
+/* position: fixed !important;
 top:0;
 right:0;
 left:0;
